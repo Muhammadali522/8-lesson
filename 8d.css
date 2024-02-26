@@ -7,15 +7,15 @@
     top: 230px;
     left: 0;
 
-    animation: render 5s ease-in-out infinite ;
+    animation: render 10s ease-in-out infinite ;
 }
 
 @keyframes render {
     0%{
-        left: 0%;
+        left: -220px;
         transform: rotate(-360deg);
     }
     100%{
-        left: 1310px;
+        left: 1600px;
     }
 }
