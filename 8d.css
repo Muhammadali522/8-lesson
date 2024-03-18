@@ -19,3 +19,22 @@
         left: 1600px;
     }
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    animation: body 5s linear infinite both;
+}
+
+@keyframes body{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: aqua;
+    }
+}
